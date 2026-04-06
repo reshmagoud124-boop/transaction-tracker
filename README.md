@@ -1,16 +1,50 @@
-# React + Vite
+# 💰 Transaction Tracker Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Name:** G. Reshma  
+**Date:** April 2026  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Overview
+This project is a Transaction Tracker web application built using React. It allows users to manage financial transactions by adding, deleting, filtering, and searching records. The application also demonstrates role-based UI behavior and clean state management.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- Add new transactions (title, amount, category, type)
+- Delete transactions
+- Filter transactions (All, Income, Expense)
+- Search transactions by title
+- Role-based UI:
+  - **Admin**: Can add and delete transactions
+  - **Viewer**: Can only view transactions
+- Real-time total expense calculation
+- Data persistence using localStorage
+- Handles empty state gracefully
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React (JavaScript)
+- Vite
+- useState & useEffect (state management)
+- LocalStorage (data persistence)
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository  
+   ```bash
+   git clone <https://github.com/reshmagoud124-boop/transaction-tracker.git>
+2. Navigate to the project folder  
+   ```bash
+   cd task-manager
+3. Install dependencies
+   ```bash
+   npm install
+4. Run the application
+   ```bash
+   npm run dev
+5. Open in browser
+   [http://localhost:5173/]
