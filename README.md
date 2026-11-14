@@ -8,6 +8,16 @@ A full-stack personal finance management application built using React, FastAPI,
 Transaction Tracker is a web application designed to simplify personal financial management. Users can add, view, edit, delete, search, and filter transactions.
 
 The React frontend communicates with a FastAPI backend through REST APIs, while SQLite stores transaction records persistently.
+## 📸 Application Screenshots
+
+### Dashboard – Viewer Mode
+![Dashboard](screenshots/dashboard.png)
+
+### Transaction History
+![Transaction History](screenshots/transactions.png)
+
+### Admin Mode – Add Transaction
+![Admin Dashboard](screenshots/admin-mode.png)
 
 ## ✨ Features
 
